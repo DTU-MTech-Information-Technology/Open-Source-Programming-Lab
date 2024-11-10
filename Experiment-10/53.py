@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_excel('abc.xlsx')
 
-print("Sum: ",df["Production"].sum()) 
-print("Mean: ",df["Production"].mean())
-print("Maximum: ",df["Production"].max())
-print("Minimum: ",df["Production"].min()) 
+print("Sum: ",df["Marks"].sum()) 
+print("Mean: ",df["Marks"].mean())
+print("Maximum: ",df["Marks"].max())
+print("Minimum: ",df["Marks"].min()) 

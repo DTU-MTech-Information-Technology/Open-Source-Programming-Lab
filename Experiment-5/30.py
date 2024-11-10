@@ -14,3 +14,4 @@ my_dict = {
 
 with open("data.json", "w") as file:
     json.dump(my_dict, file)
+    print("Stored JSON to file")
